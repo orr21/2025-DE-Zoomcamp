@@ -80,6 +80,18 @@ The `data_ingestion.ipynb` notebook explains the ingestion process step by step.
 jupyter notebook data_ingestion.ipynb
 ```
 
+If you want to explore the notebook the first step would be to create the data folder.
+
+```bash
+mkdir data
+```
+
+After this, you should install the python libraries for being able to run the notebook. You can get them by applying the next commando:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Notes
 
 - Ensure the data files are present in the `data` folder before running the ingestion script.
